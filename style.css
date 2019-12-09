@@ -1,0 +1,93 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+#main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: lightblue;
+}
+
+.section-large {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:lightyellow;
+}
+
+
+.row{
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    background-color:lightpink;
+    margin-bottom: 32px;
+}
+
+.img-container{
+    height: 100%;
+    width: 30%;
+    background-color:white;
+}
+
+#title {
+    color: Green;
+    font-size: 32px;
+    border-bottom: 2px solid Green;
+    text-align: center;
+    margin-left: 40px;
+    width: 30%;
+}
+
+h2 {
+    color: Green;
+    font-size: 32px;
+    border-bottom: 2px solid Green;
+    text-align: center;
+    padding-left: 20px;
+    margin: 0;
+    margin-left: 40px;
+    width:50%
+}
+
+.header-small {
+    color: Green;
+    padding-left: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    text-align: left;
+    border-bottom: 0px solid Green;
+    width:80%
+}
+
+h1 {
+    color: Green;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 40px;
+    
+}
+
+.light {
+    font-weight: 300;
+}
+
+p {
+    color: Green;
+    font-size: 28px;
+    text-align: left;
+    margin: 0;
+    margin-left: 80px;
+    width:40%
+}
+
+.p-left {
+    color: Green;
+    font-size: 24px;
+    margin-left: 20px;
+    text-align: left;
+}
